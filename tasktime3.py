@@ -1,5 +1,4 @@
 import time
-
 now = time.localtime()
 today = time.strftime("%d.%m.%Y", now).split('.')
 birthdate = input('date of birth: ').split('.')
